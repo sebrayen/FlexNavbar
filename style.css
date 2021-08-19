@@ -1,0 +1,52 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color:#343a40;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+h1 {
+    color: white;
+}
+
+.nav-title {
+    margin: 5px;
+} 
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    width: 600px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.active {
+    color: white;
+}
+
+.btn {
+    background-color:#17a2b8; 
+    color: white; 
+    border: 3px solid black; 
+    font-size: 12pt;
+    margin: -5px 5px 5px 0px;
+    padding: 0px 10px;
+    box-shadow: 3px 3px black;
+}
+
